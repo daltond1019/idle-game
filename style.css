@@ -1,0 +1,36 @@
+body,
+head,
+main,
+p,
+input,
+#score,
+#passiveCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  flex-direction: column;
+  background-color: #808080;
+}
+
+#myBtn {
+  height: 300px;
+  width: 1200px;
+  font-size: 200px;
+  background-color: lightblue;
+  color: grey;
+}
+
+#score {
+  margin: 10px;
+  font-size: 50px;
+}
+
+p,
+#passiveCount {
+  font-size: 50px;
+  margin: 0;
+}
